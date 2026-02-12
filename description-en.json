@@ -1,4 +1,5 @@
 {
+  "description": "WorkTwins extension scaffold for coworker/work-profile matching workflows. Current datasource implementation is a placeholder pending runtime integration.",
   "domainCategory": "Collaboration",
   "subjectiveTechnologyElement": "DataSources",
   "publisher": "BrainBoost Ltd.",
@@ -13,20 +14,29 @@
         {
           "title": "For teams and leaders",
           "text": "Build teams faster with better outcomes. Reduce hiring and onboarding risk. Match people to projects based on evidence, not interviews.",
-          "image": { "src": "/worktwins/feature_monitor.png", "alt": "Monitoring" }
+          "image": {
+            "src": "/worktwins/feature_monitor.png",
+            "alt": "Monitoring"
+          }
         },
         {
           "title": "Privacy & control",
           "text": "VirtualGlass captures signals needed to build a WorkFootPrint. You control what is shared. Matching uses derived representations of experience, not raw private content.",
-          "image": { "src": "/worktwins/feature_footprint.png", "alt": "WorkFootPrint" }
+          "image": {
+            "src": "/worktwins/feature_footprint.png",
+            "alt": "WorkFootPrint"
+          }
         }
       ]
     },
     {
       "type": "splitList",
       "title": "\"Guaranteed by construction\" - what that means",
-      "text": "CVs and interviews can be inaccurate because they are based on claims, bias, and short snapshots. WorkTwins matches measured work experience to measured work experience.",
-      "image": { "src": "/worktwins/worktwins_vignette_diffuse.png", "alt": "WorkFootPrint visualization" },
+      "text": "WorkTwins extension scaffold for coworker/work-profile matching workflows. Current datasource implementation is a placeholder pending runtime integration.",
+      "image": {
+        "src": "/worktwins/worktwins_vignette_diffuse.png",
+        "alt": "WorkFootPrint visualization"
+      },
       "list": [
         "Measured work -> measured work",
         "Not what someone says, but what their work shows",
@@ -38,19 +48,40 @@
       "title": "Example: Java developer choosing between Python and C#",
       "intro": "WorkTwins goes beyond intuition and confirms the best match from evidence. It answers: Which person has the closest real WorkFootPrint to Dev A's daily work?",
       "cards": [
-        { "title": "Java-like OOP structure", "text": "Design patterns, refactoring habits, strongly-typed codebases." },
-        { "title": "Testing and debugging workflows", "text": "Comparable testing discipline and debugging routines." },
-        { "title": "Tooling and collaboration behavior", "text": "Similar tooling routines and collaboration patterns." }
+        {
+          "title": "Java-like OOP structure",
+          "text": "Design patterns, refactoring habits, strongly-typed codebases."
+        },
+        {
+          "title": "Testing and debugging workflows",
+          "text": "Comparable testing discipline and debugging routines."
+        },
+        {
+          "title": "Tooling and collaboration behavior",
+          "text": "Similar tooling routines and collaboration patterns."
+        }
       ]
     },
     {
       "type": "gallery",
       "title": "WorkTwins in action",
       "images": [
-        { "src": "/worktwins/worktwins_start.webp", "alt": "WorkTwins client preview" },
-        { "src": "/worktwins/three_twins_laptops.png", "alt": "WorkTwins collaboration view" },
-        { "src": "/worktwins/worktwins_vignette_diffuse.png", "alt": "WorkFootPrint visualization" },
-        { "src": "/worktwins/feature_collaboration.png", "alt": "Collaboration intelligence" }
+        {
+          "src": "/worktwins/worktwins_start.webp",
+          "alt": "WorkTwins client preview"
+        },
+        {
+          "src": "/worktwins/three_twins_laptops.png",
+          "alt": "WorkTwins collaboration view"
+        },
+        {
+          "src": "/worktwins/worktwins_vignette_diffuse.png",
+          "alt": "WorkFootPrint visualization"
+        },
+        {
+          "src": "/worktwins/feature_collaboration.png",
+          "alt": "Collaboration intelligence"
+        }
       ]
     },
     {
@@ -61,7 +92,10 @@
           "q": "Is WorkTwins only for hiring?",
           "a": "No. WorkTwins is for coworker matching, pairing people for maximum effectiveness based on real experience. It can support hiring decisions, but that is not required."
         },
-        { "q": "Do I need to fill out a profile?", "a": "No. WorkTwins is built on 0-Input signals captured by VirtualGlass." },
+        {
+          "q": "Do I need to fill out a profile?",
+          "a": "No. WorkTwins is built on 0-Input signals captured by VirtualGlass."
+        },
         {
           "q": "Can WorkTwins match across different languages or stacks?",
           "a": "Yes. It compares real work patterns and demonstrated experience, so it can find the best available match even when the perfect same-stack teammate is not available."
@@ -72,7 +106,10 @@
       "type": "finalCta",
       "title": "Ready to find the best coworker fit?",
       "text": "Stop pairing coworkers with guesswork. Let WorkTwins compute the best match from real experience.",
-      "primaryCta": { "label": "Try WorkTwins", "href": "/subjective-client-download" },
+      "primaryCta": {
+        "label": "Try WorkTwins",
+        "href": "/subjective-client-download"
+      },
       "subtext": "Run WorkTwins on VirtualGlass - Start building your WorkFootPrint automatically"
     }
   ]
